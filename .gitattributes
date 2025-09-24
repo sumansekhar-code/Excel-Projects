@@ -1,0 +1,22 @@
+# Treat SQL files as SQL
+*.sql linguist-language=SQL
+
+# Treat Python files as Python (if you have any scripts)
+*.py linguist-language=Python
+
+# Treat Jupyter notebooks as Python
+*.ipynb linguist-language=Python
+
+# Ignore Markdown files from language stats
+*.md linguist-documentation
+
+# Ignore CSV, JSON, and Excel files from language stats
+*.csv linguist-vendored
+*.json linguist-vendored
+*.xlsx linguist-language=Excel
+*.xlsxm linguist-language=Excel
+
+# Optional: Ignore images from language stats
+*.png linguist-vendored
+*.jpg linguist-vendored
+*.jpeg linguist-vendored
